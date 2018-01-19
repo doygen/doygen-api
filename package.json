@@ -1,0 +1,22 @@
+{
+  "name": "doy-api",
+  "version": "0.0.1",
+  "description": "The Doy API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "doy",
+    "doygen",
+    "api"
+  ],
+  "author": "Artur Farias",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^3.0.2",
+    "mkdirp": "^0.5.1"
+  }
+}
