@@ -1,22 +1,30 @@
 {
-  "name": "doy-api",
-  "version": "0.0.1",
-  "description": "The Doy API.",
+  "name": "potter-api",
+  "version": "0.1.0",
+  "description": "The Potter API.",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "keywords": [
-    "doy",
-    "doygen",
+    "pot",
+    "potterjs",
     "api"
   ],
-  "author": "Artur Farias",
-  "license": "ISC",
+  "author": "Artur Farias <artur.farias@embedded.ufcg.edu.br>",
+  "contributors": [
+    {
+      "name": "Rodirgo A Vilar",
+      "email": "rodrigovilar@dce.ufpb.br"
+    }
+  ],
+  "license": "MIT",
   "dependencies": {
     "fs-extra": "^5.0.0",
+    "js-beautify": "^1.7.5",
     "mem-fs": "^1.1.3",
     "mem-fs-editor": "^3.0.2",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "prettier": "^1.10.2"
   }
 }
