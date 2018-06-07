@@ -1,11 +1,14 @@
 {
   "name": "potter-api",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The Potter API.",
   "main": "index.js",
   "files": [
     "lib"
   ],
+  "bin": {
+    "pot": "lib/cli.js"
+  },
   "scripts": {
     "test": "test"
   },
@@ -21,7 +24,7 @@
   "author": "Artur Farias <artur.farias@embedded.ufcg.edu.br>",
   "contributors": [
     {
-      "name": "Rodirgo A Vilar",
+      "name": "Rodrigo A Vilar",
       "email": "rodrigovilar@dce.ufpb.br"
     }
   ],
@@ -32,6 +35,7 @@
   "homepage": "https://github.com/potterjs/potter-api",
   "dependencies": {
     "adm-zip": "^0.4.9",
+    "commander": "^2.12.2",
     "fs-extra": "^5.0.0",
     "js-beautify": "^1.7.5",
     "mem-fs": "^1.1.3",

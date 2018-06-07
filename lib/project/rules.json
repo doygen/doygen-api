@@ -1,0 +1,21 @@
+[
+  {
+    "port": "generator",
+    "worker": "ProjectWorker"
+  },
+  {
+    "port": "potter-file",
+    "template": "_potter",
+    "output": ".potter"
+  },
+  {
+    "port": "metadata-file",
+    "template": "metadata.json",
+    "output": "metadata.json"
+  },
+  {
+    "port": "rules-file",
+    "template": "rules.json",
+    "output": "rules.json"
+  }
+]
