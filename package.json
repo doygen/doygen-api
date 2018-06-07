@@ -17,6 +17,10 @@
     "potterjs",
     "api"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potterjs/pot.git"
+  },
   "author": "Artur Farias <artur.farias@embedded.ufcg.edu.br>",
   "contributors": [
     {
@@ -25,6 +29,10 @@
     }
   ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/potterjs/potter-api/issues"
+  },
+  "homepage": "https://github.com/potterjs/potter-api",
   "dependencies": {
     "adm-zip": "^0.4.9",
     "commander": "^2.12.2",
