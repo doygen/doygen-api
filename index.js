@@ -5,5 +5,6 @@ module.exports = {
     Generator : require('./lib/generator').Generator,
     Port : require('./lib/port').Port,
     Worker : require('./lib/worker').Worker,
+    BuilderWorker : require('./lib/builder').BuilderWorker,
     Beautifier: require('./lib/beautifier').Beautifier
 };
